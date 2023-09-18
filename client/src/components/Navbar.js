@@ -62,6 +62,16 @@ function Navbar() {
               </Link>
             </li>
 
+            <li className='nav-item'>
+              <Link
+                to='/executive'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                executive
+              </Link>
+            </li>
+
             
           </ul>
           {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
